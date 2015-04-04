@@ -1,0 +1,11 @@
+drop table if exists games;
+create table games (
+    gid integer primary key,
+    p1id text,
+    p2id text,
+    status integer,
+    gamemode text,
+    gamedata text,
+		board text
+);
+
