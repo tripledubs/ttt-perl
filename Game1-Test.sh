@@ -7,9 +7,6 @@ export toMove=$p1
 
 rm -f output.txt
 
-
-sleep 1
-
 for i in 0 1 2 3 4 5 6; do 
 	`./Mojo-Server.pl get "/?method=move&gameid=${game}&playerid=${toMove}&position=${i}" 1>> output.txt`
 	print $return
