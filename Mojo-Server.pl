@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
-use Mojolicious::Lite;
-use Game::Board;
-use JSON;
-use DBI;
 use Data::Dump 'dump';
+use DBI;
+use Game::Board;
+use Mojolicious::Lite;
 use YAML; # Like JSON but supports Perl Objects
 
 my $dbfile='tictactoe.db';
