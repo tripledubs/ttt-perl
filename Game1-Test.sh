@@ -18,3 +18,9 @@ done
 
 cat output.txt
 rm output.txt
+
+# X 0 X
+# 0 X 0
+# X _ _
+
+# X Wins
